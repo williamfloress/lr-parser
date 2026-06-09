@@ -1,0 +1,9 @@
+prerequisito {a >= 0 ^ b >= 0 ^ ¬(a = 0 ^ b = 0)}
+
+fun mcd(a, b: entero) dev (m: entero) =
+    caso b = 0          -> a
+    [] a = 0            -> b
+    [] a >= b ^ b != 0  -> mcd(b, a mod b)
+    [] b > a ^ a != 0   -> mcd(a, b mod a)
+    fcaso
+ffun

@@ -1,0 +1,7 @@
+fun suma(a: vector; i, j: entero) dev (s: entero) =
+    caso i > j -> 0
+    [] i = j   -> a[i]
+    [] i < j   -> sea m = (i + j) div 2 en
+                      suma(a, i, m) + suma(a, m + 1, j)
+    fcaso
+ffun

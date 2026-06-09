@@ -3,3 +3,7 @@ description: Un analizador léxico y sintáctico nativo en Dart para el lenguaje
 version: 1.0.0
 environment:
   sdk: '>=3.0.0 <4.0.0'
+
+# Registra el ejecutable de línea de comandos del analizador
+executables:
+  lr_parser: main

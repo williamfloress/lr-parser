@@ -1,0 +1,14 @@
+{
+  "roots": [
+    "lr_parser"
+  ],
+  "packages": [
+    {
+      "name": "lr_parser",
+      "version": "1.0.0",
+      "dependencies": [],
+      "devDependencies": []
+    }
+  ],
+  "configVersion": 1
+}

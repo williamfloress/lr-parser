@@ -1,0 +1,5 @@
+fun potencia(a: entero; n: natural) dev (q: entero) =
+    caso n = 0 -> 1
+    [] n > 0   -> a * potencia(a, n - 1);
+    fcaso
+ffun

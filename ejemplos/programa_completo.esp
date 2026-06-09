@@ -1,0 +1,23 @@
+fun suma(a: vector; i, j: entero) dev (s: entero) =
+    caso i > j -> 0
+    [] i = j   -> a[i]
+    [] i < j   -> sea m = (i + j) div 2 en
+                      suma(a, i, m) + suma(a, m + 1, j)
+    fcaso
+ffun
+
+fun potencia(a: entero; n: natural) dev (q: entero) =
+    caso n = 0 -> 1
+    [] n > 0   -> a * potencia(a, n - 1)
+    fcaso
+ffun
+
+prerequisito {a >= 0 ^ b >= 0 ^ ¬(a = 0 ^ b = 0)}
+
+fun mcd(a, b: entero) dev (m: entero) =
+    caso b = 0          -> a
+    [] a = 0            -> b
+    [] a >= b ^ b != 0  -> mcd(b, a mod b)
+    [] b > a ^ a != 0   -> mcd(a, b mod a)
+    fcaso
+ffun

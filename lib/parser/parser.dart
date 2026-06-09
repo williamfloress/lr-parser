@@ -641,5 +641,3 @@ class Parser {
     return VarDef(idTok.lexeme, value);
   }
 }
-
-
