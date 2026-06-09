@@ -120,11 +120,41 @@ class ConstExpr extends Expr {
   ConstExpr(this.id, this.value);
 }
 
-// Literal numérico (entero o natural)
+// Literal numérico entero (ej: 42, 0)
 class LiteralExpr extends Expr {
   final int value;
 
   LiteralExpr(this.value);
+}
+
+// Literal numérico real (ej: 3.14, 0.5)
+class RealLiteralExpr extends Expr {
+  final double value;
+
+  RealLiteralExpr(this.value);
+}
+
+// Literal de cadena de texto encerrada entre comillas dobles (ej: "hola")
+class StringLiteralExpr extends Expr {
+  /// Contenido de la cadena sin las comillas delimitadoras.
+  final String value;
+
+  StringLiteralExpr(this.value);
+}
+
+// Literal de carácter encerrado entre comillas simples (ej: 'x')
+class CharLiteralExpr extends Expr {
+  /// El carácter representado, sin las comillas.
+  final String value;
+
+  CharLiteralExpr(this.value);
+}
+
+// Literal booleano: verdadero o falso
+class BoolLiteralExpr extends Expr {
+  final bool value;
+
+  BoolLiteralExpr(this.value);
 }
 
 // Referencia a un identificador (variable o constante por nombre)
