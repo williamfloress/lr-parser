@@ -1,3 +1,9 @@
+/*
+Proyecto realizado por :
+Nombre: William Flores
+CI: 24.107.343
+Correo: w.flores.s24@gmail.com
+*/
 import 'dart:io';
 
 import 'package:lr_parser/lexer/lexer.dart';

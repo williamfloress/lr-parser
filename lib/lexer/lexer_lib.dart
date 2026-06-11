@@ -1,3 +1,9 @@
+/*
+Proyecto realizado por :
+Nombre: William Flores
+CI: 24.107.343
+Correo: w.flores.s24@gmail.com
+*/
 /// Módulo del analizador léxico (Lexer) del proyecto LR Parser.
 ///
 /// Exporta los tres componentes que conforman la fase léxica:

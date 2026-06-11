@@ -1,3 +1,9 @@
+/*
+Proyecto realizado por :
+Nombre: William Flores
+CI: 24.107.343
+Correo: w.flores.s24@gmail.com
+*/
 /// Excepción lanzada por el [Parser] cuando encuentra un token inesperado
 /// o una construcción que no se ajusta a la gramática del lenguaje LR.
 ///

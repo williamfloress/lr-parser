@@ -1,3 +1,9 @@
+/*
+Proyecto realizado por :
+Nombre: William Flores
+CI: 24.107.343
+Correo: w.flores.s24@gmail.com
+*/
 import 'token_type.dart';
 
 /// Representa un token individual producido por el [Lexer].

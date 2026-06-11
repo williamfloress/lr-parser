@@ -1,3 +1,9 @@
+/*
+Proyecto realizado por :
+Nombre: William Flores
+CI: 24.107.343
+Correo: w.flores.s24@gmail.com
+*/
 /// Enumeración de todos los tipos de tokens reconocidos por el analizador léxico.
 ///
 /// Los tokens se agrupan en las siguientes categorías:

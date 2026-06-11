@@ -1,3 +1,9 @@
+/*
+Proyecto realizado por :
+Nombre: William Flores
+CI: 24.107.343
+Correo: w.flores.s24@gmail.com
+*/
 /// Nodos del Árbol de Sintaxis Abstracta (AST) para el analizador LR.
 ///
 /// Todos los nodos heredan de [ASTNode]. La jerarquía se divide en dos ramas:

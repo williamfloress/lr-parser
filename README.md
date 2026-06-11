@@ -1,3 +1,9 @@
+<!--
+Proyecto realizado por :
+Nombre: William Flores
+CI: 24.107.343
+Correo: w.flores.s24@gmail.com
+-->
 # LR Parser — Analizador Léxico y Sintáctico en Dart
 
 > Analizador léxico-sintáctico nativo escrito en **Dart puro** para un lenguaje
